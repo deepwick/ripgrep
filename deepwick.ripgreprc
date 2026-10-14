@@ -1,0 +1,12 @@
+# Deepwick colors for ripgrep. Point RIPGREP_CONFIG_PATH at this file.
+# Each type is reset first so ripgrep's default bold and colors don't stack.
+--colors=path:none
+--colors=path:fg:86,156,214
+--colors=line:none
+--colors=line:fg:110,120,153
+--colors=column:none
+--colors=column:fg:110,120,153
+--colors=match:none
+--colors=match:fg:215,186,125
+--colors=match:bg:38,79,120
+--colors=match:style:bold
