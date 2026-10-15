@@ -86,6 +86,7 @@ def test_rg_renders_roles(tmp_path):
     match = style_of(out, "deepwick")
     assert (match["fg"], match["bg"], match["bold"]) == (C["gold"].lower(), C["selection"].lower(), True)
     assert style_of(out, "1")["fg"] == C["muted"].lower()
+    assert style_of(out, "8")["fg"] == C["muted"].lower(), "column"
 
 
 def test_port_conventions():
